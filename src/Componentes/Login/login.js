@@ -37,7 +37,7 @@ class Login extends Component {
                     {error ? <p>{error.message}</p> : null }
                 </div>
                 <div className="row center">
-                    <img />
+                    <img src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/VOLANTIN.png"/>
                 </div>
                 <div className="row center">
                     <div className="col-8">
@@ -45,7 +45,7 @@ class Login extends Component {
                     </div>
                 </div>                
                 <div className="row center">
-                    <h4><Link to='./emailLogin' className="btn btn-danger">Accede con tu correo</Link></h4>
+                    <h4><Link to='./emailLogin' className="btn btn-danger"><i class="material-icons">email</i> Accede con tu correo</Link></h4>
                 </div>
                 <div className="row center">
                     <button onClick={this.handleSubmit} className="btn btn-primary">Accede con Facebook</button>

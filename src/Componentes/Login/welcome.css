@@ -12,4 +12,9 @@
     line-height: normal;
     text-align: center;
     color: #A3ADB4;
+    margin: 4rem 0;
+}
+
+.material-icons{
+    vertical-align: middle;
 }
