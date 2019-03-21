@@ -33,7 +33,7 @@ class LoginWithEmail extends Component {
     render() {
         const { email, password, error } = this.state;
         return (
-            <div className="component">
+            <div className="component mainLogo">
                 <div className="row center">
                 {error ? <p>{error.message}</p> : null }
                 </div>
@@ -44,7 +44,7 @@ class LoginWithEmail extends Component {
                     <input type="password" name="password" placeholder="Contraseña" value={password} onChange={this.handleInputChange}></input>
                 </div>
                 <div className="row center">
-                    <button onClick={this.handleSubmit}>Ingresar</button>
+                    <button onClick={this.handleSubmit} className="btn btn-primary">Ingresar</button>
                 </div>
             </div>
         )
