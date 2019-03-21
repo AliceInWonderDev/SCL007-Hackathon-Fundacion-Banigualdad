@@ -48,7 +48,7 @@ class Login extends Component {
                     <h4><Link to='./emailLogin' className="btn btn-danger"><i class="material-icons">email</i> Accede con tu correo</Link></h4>
                 </div>
                 <div className="row center">
-                    <button onClick={this.handleSubmit} className="btn btn-primary">Accede con Facebook</button>
+                    <button onClick={this.handleSubmit} className="btn btn-primary"><img src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/facebook.png"/>Accede con Facebook</button>
                 </div>
             </div>
         )
