@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from 'firebase';
 import { auth, facebookProvider } from '../../FirebaseConfig/provider';
-
+import './welcome.css'
 
 class Login extends Component {
 
@@ -40,7 +40,9 @@ class Login extends Component {
                     <img />
                 </div>
                 <div className="row center">
-                    <h3>¡Bienvenido, unete a nuestra comunidad de emprendedores!</h3>
+                    <div className="col-8">
+                        <h3 className="welcomeMsg">¡Bienvenido, unete a nuestra comunidad de emprendedores!</h3>
+                    </div>
                 </div>                
                 <div className="row center">
                     <h4><Link to='./emailLogin' className="btn btn-danger">Accede con tu correo</Link></h4>

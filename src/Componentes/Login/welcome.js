@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from 'firebase'
+import './welcome.css'
 
 class Welcome extends Component {
 
@@ -17,19 +18,21 @@ class Welcome extends Component {
 
     render() {
         return (
-            <div className="component welcomeScreen">
+            <div className="component">
                 {this.state.isSignedIn ? <Link to="/navbar"></Link> : console.log('not logged in')}
 
                 <div className="component">
                     <div className="row center"> 
-                        <img src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/logo_banigualdad.jpg" />
+                        <img className="mainLogo" src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/logo_banigualdad.png" />
                     </div>
                 </div>
 
                 <div className="row center">
-                    <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                        Soy de Banigualdad
-                    </button>
+                    <div className="col-6">
+                        <button type="button" className="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModalLong">
+                            Soy de Banigualdad
+                        </button>
+                    </div>
                 </div>
 
                 <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -51,7 +54,9 @@ class Welcome extends Component {
                 </div>
 
                 <div className="row center">
-                    <h4><Link to="/catalogo" className="btn btn-outline-primary">Vengo a conocer</Link></h4>
+                    <div className="col-6">
+                    <h4><Link to="/catalogo" className="btn btn-outline-primary btn-block">Vengo a conocer</Link></h4>
+                    </div>
                 </div>
             </div>
         )
