@@ -1,0 +1,25 @@
+#profilePicture{
+    width: 100%;
+    height: auto;
+  }
+  .profilePicture {
+    width: 40%;
+    margin: auto;
+  }
+  .form-control{
+      border: 1px solid #206FB7;
+      border-radius: 30px;
+  }
+label{
+    color: #1896D3;
+    font-weight: bold;
+}
+h4{
+    color: rgba(0, 0, 0, 0.541327);
+}
+.continue{
+    background: linear-gradient(180.61deg, #15A3DD 3.02%, #206FB7 58.85%);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}

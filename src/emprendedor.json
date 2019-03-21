@@ -1,0 +1,332 @@
+{
+
+  "emprendedor":[
+
+{
+
+    "name":"Solange Céspedes",
+
+    "id":1,
+
+    "img": "https://www.banigualdad.cl/wp-content/uploads/2018/11/solange-cspedes.jpg",
+
+    "reseña":"Soy Solange Céspedes, tengo 46 años, soy nacida y criada en Pomaire. Hace más de 20 años que trabajo la alfarería, este es un trabajo muy lindo, un trabajo manual, una tradición de Pomaire que ya se está perdiendo y nosotras las mujeres la estamos siguiendo, avanzando, enseñándoles a nuestros hijos.",
+
+    "rubro":["Produccion"],
+
+    "categoria":["Alfarería"],
+
+    "ubicacion":"Pomaire"
+
+  },
+
+{
+
+    "name":"Alice Peñailillo",
+
+    "id":2,
+
+    "img": "https://www.banigualdad.cl/wp-content/uploads/2018/06/alice-peailillo.jpg",
+
+    "reseña":"Alice Peñailillo vive en San Antonio, es ingeniero de profesión y luego de quedar sin trabajo el año pasado pudo dedicarse 100% a lo que más le gusta: “Todo lo que son las terapias complementarias me apasiona. Llevo 10 años trabajando a través de mis terapias, me he ido especializado, he participado en distintos cursos y talleres, hago terapias de reiki, de sanación. Siempre estaba en la búsqueda de algo, pensé que era un tema más religioso hasta que llegué a un curso de metafísica y ahí encontré lo que quería, comencé a estudiar y a hacer mis terapias. Esto genera un equilibrio en cuerpo, mente y alma. Además fabrico orgones, sacos de semilla, bolsitas terapéuticas con cuarzo. La Fundación fue re importante porque no contaba con el capital, al estar sin trabajo no tenía ningún respaldo. Apareció Banigualdad y fue magnífico, la capacitación y contención que me entrega nuestra asesora es fabulosa. Los materiales de capacitación son muy buenos y actuales",
+
+    "rubro":["Produccion"],
+
+    "categoria":["Terapia Complementaria"],
+
+    "ubicacion":"San Antonio"
+
+},
+
+
+{
+
+  "name":"Marianela Córdova",
+
+  "id":3,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2018/03/marianela-crdova.jpg",
+
+  "reseña":"Tengo mi taller de costuras desde hace 9 años, la edad que tiene mi segundo hijo. Por él quise dejar de trabajar fuera de la casa y poder dedicarme a lo mío, a lo que más me gusta y a lo que estudié. Soy una mamá presente gracias a mi taller. En esta época estoy dedicada a los uniformes escolares, trabajo con cuatro colegios, hago las poleras, el pantalón, los buzos. Me gusta mucho todo lo que es confección de ropa. Luego de que termina la época escolar hago polerones para el invierno, abrigos de polar y ya en agosto nos preparamos para los trajes típicos de las Fiestas Patrias. En este taller trabajo con una compañera de Centro, nos conocimos en el grupo de la Fundación, ella tenía las mismas aspiraciones mías, así que se vino con todas sus cosas a mi casa. Estoy en el 3er ciclo en la Fundación. Una niña me invitó a participar y hasta ahora ha resultado bien. Banigualdad es un gran apoyo para los emprendedores, un apoyo que no tenemos”, nos dice Marianela Córdova, emprendedora de Padre Hurtado.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Costura de uniformes"],
+
+  "ubicacion":"Padre Hurtado"
+
+},
+{
+
+  "name":"María Gómez",
+
+  "id":3,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2017/11/m.cristinagomez.jpg",
+
+  "reseña":"Soy María Gómez, vivo en Maule, en el sector de El Mirador, en la VII Región. Mi emprendimiento son las brochetas, también hacemos tortillas, chicharrones, arrollado, queso cabeza, todo lo hago yo porque lo aprendí desde chica. Me pongo en una feria de sábado, domingo y feriados. Me gusta el negocio, toda mi familia es comerciante y todo lo aprendí de una persona muy especial que me enseñó",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Brochetas"],
+
+  "ubicacion":"Maule"
+
+},
+
+
+{
+
+  "name":"Luz Gacitúa",
+
+  "id":4,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2018/01/luz-gacita.jpg",
+
+  "reseña":"Luz Gacitúa es de Maipú y emprende con la venta de cosméticos. Su principal innovación es vender marcas no testeadas en animales y así aportar con un granito de arena en esta causa. “Cuando empecé a vender cosméticos siempre me fui yendo por las marcas conocidas, pero detrás de todo eso descubrí un mundo muy cruel y terrible, me dio pena darme cuenta de que quizás uno de mis productos favoritos participaba en esa crueldad. Más de 300 mil especies de animales mueren o sufren por esos malos tratos de la industria y el testeo en animales. Por eso tomé la decisión de no usar más esos maquillajes”, nos cuenta. “Tengo 5 hijos y llevamos 14 años de casados con mi marido, decidí emprender para no dejar a mis hijos, no descuidar la casa y poder trabajar igual. Con el primer crédito de la Fundación compré mi primer lote de maquillaje, una cajita muy chiquitita, después fui agrandando mi caja y ahora no me cabe nada! Ando mostrando mi maquillaje en todos lados”, dice con alegría.",
+
+  "rubro":["Comercio"],
+
+  "categoria":["Venta de Maquillaje"],
+
+  "ubicacion":"Maipu"
+
+},
+
+
+{
+
+  "name":"Magdalena Durán ",
+
+  "id":5,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2017/12/magdalena-duran.jpg",
+
+  "reseña":"Mi profesión es tejer, tejer y tejer ¡me encanta! Tengo una discapacidad en mis caderas y eso no me permite salir de mi casa. Por eso decidí emprender ¿Qué sería de mí sin trabajar?, estaría más postrada que en pie. En estas fechas me dedico a los adornos navideños, mi marido y mis hijos llevan las cosas a sus trabajos y así  me encargan. Siento que mi trabajo me ha dado mucha fuerza de voluntad para poder seguir adelante. Una amiga me llevó a Banigualdad porque veía que podía comprar solo de a poquito, que no me cundía mi trabajo. Me metí a ojos cerrados y aquí estoy. Me ha servido mucho la Fundación, he podido tener el material que tengo gracias a los microcréditos. Cuando recibo el cheque le hago una lista a mi marido y él me trae todo. Me fascina mi trabajo, le doy las gracias a Banigualdad: no sabría dónde estaría ahora sin el apoyo de la Fundación”, nos cuenta la emprendedora Magdalena Durán de Peñalolén.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Manualidad navideña"],
+
+  "ubicacion":"Peñalolen"
+
+},
+
+
+{
+
+  "name":"Patricia Abarca",
+
+  "id":7,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2017/08/patricia-abarca-1.jpg",
+
+  "reseña":"En el mes del niño, una de nuestras microempresarias destacadas es Patricia Abarca, creativa emprendedora de la comuna de El Bosque que se dedica a las costuras y que ha encontrado un nuevo nicho de negocio en ellas: la creación de gorros temáticos para los “gamers”, como se les llama a los aficionados a los video juegos. Ellos encuentran en Patricia una gran alternativa para poder vestirse como sus virtuales personajes favoritos.Esto partió por una vecina mía que va a eventos y ferias de este tipo, la Festigames, la ComicCon. Ella me mostró una foto de un personaje y me preguntó si podía sacar el gorro. ¡Me gustó el desafío y lo hice! Después me empecé a tirar con otros modelos. Los que me los piden son los chiquillos que conocen los juegos, son para un público específico. También hago trajes de Mario Bros, de alguna princesa del mismo juego, lo que me pidan, porque me gusta que me encarguen cosas difíciles, ponerme pruebas y superarlas. A Banigualdad entré porque me invitaron, probé partiendo con poquito y he hecho súper buenas inversiones para mi negocio. Me compré una máquina de coser industrial, una overlock. Gracias a este trabajo puedo apoyar económicamente en mi casa y a mis hijos que están estudiando. Me gusta estar en Banigualdad y compartir con mi Centro",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Costura"],
+
+  "ubicacion":"Santiago, El Bosque"
+
+},
+
+
+{
+
+  "name":"Marisol Burgos",
+
+  "id":8,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2017/10/marisol-burgos.jpg",
+
+  "reseña":"Estoy hace 2 años en la Fundación, mi grupo fue el primero que se hizo en Maule, en la VII Región. Mi negocio es la venta de colaciones, aquí se vende la rica cazuela de vacuno todos los días, también hago porotitos, pollo arvejado, mote con huesillo en el verano y los completos que salen todos los días. También decidí hacer mi propia empresa de eventos, hago matrimonios, cenas, tengo de todo para 150 personas. Sillas, platos, mesas, mantelería, vajilla, todo lo que se necesita. Durante la semana atiendo mi negocio de colaciones y el fin de semana hago eventos. Estoy feliz y agradecida de Banigualdad por el apoyo, además de todo esto soy jefa de hogar, crié a mis cinco hijos. El apoyo de Banigualdad ha sido maravilloso, agradecida eternamente de la gente que nos está apoyando, de las capacitaciones. Hay que ir creciendo, a veces es difícil, pero aquí estamos aperrando. Me siento feliz de no depender de nadie y orgullosa de sacar mi familia adelante. No me veo sin trabajar”, nos dice Marisol Burgos.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Cocina"],
+
+  "ubicacion":"Maule"
+
+},
+
+{
+
+  "name":"Ernestina Cruz",
+
+  "id":9,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2017/09/ernestina-cruz-3.jpg",
+
+  "reseña":"Soy una de las fundadoras de Banigualdad en Rinconada de Silva, mi Centro se llama “La amistad”. Decidí emprender porque necesitaba surgir, así que empecé a preparar arrollado y pan amasado en horno de barro, productos que aprendí a elaborar con las recetas de mis padres y mis abuelos. Gracias a Dios me ha ido muy bien, la gente se ha acostumbrado a mis productos. Como pertenezco a un grupo de artesanos desde hace 3 años, tenemos una feria los domingos en la plaza de Rinconada o a veces vamos a Putaendo que está cerquita. Uno se siente satisfecha como emprendedora, de la labor que hace y da satisfacción porque a la gente le gustan mis productos, de hecho me buscan por el pan amasado en horno de barro. Me siento bien aportando a los gastos de mi casa, en Banigualdad me he sentido bien, es agradable y la plata me ha servido para invertir en mis cosas: sacos de harina, me abastezco de carne para preparar los arrollados y así",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Cocina"],
+
+  "ubicacion":"Putaendo"
+
+},
+
+{
+
+  "name":"Guadalupe Hernández",
+
+  "id":10,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2017/07/guadalupe-1-1024x681.jpg",
+
+  "reseña":"Partí hace más de 40 años con el tema de hierbas medicinales. La gente acudía a mí porque tenía una dolencia y para tratarla le hacía una preparación. Luego aprendí a hacer gotas con los tratamientos, me he ido especializando y sacando más variedades de mis productos de fitoterapia. Así partí con este emprendimiento. En un momento en mi vida decidí ganarme la vida con esto. Antes le regalaba a las personas, pero cuando vi que era una posibilidad de emprender dije: ¿por qué no? Para mí, mi emprendimiento ha sido una bendición. Lo que se ve ahora es gracias a Banigualdad, con los microcréditos puedo disponer de los recursos para hacer una buena publicidad, comprar un mejor envase para mis productos, tener la capacidad de hacer mis muebles para exhibirlos, movilizarme. Los dos créditos que recibo al año son muy importantes para mí. Siento que uno le pone amor a lo que está haciendo y que las otras personas lo ven”, nos cuenta Guadalupe Hernández, emprendedora de Lo Abarca, V región.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Productos Naturales"],
+
+  "ubicacion":"Lo Abarca"
+
+},
+
+{
+
+  "name":"María Ibarra",
+
+  "id":11,
+
+  "img": "https://www.banigualdad.cl/wp-content/uploads/2016/01/dsc_0069-ok.jpg",
+
+  "reseña":"María Ibarra es microempresaria de Parral, en la VII región. Hace 15 años partió con su negocio, la Talabartería Kevannay, nombre que surge de las iniciales de sus tres hijos. Hoy junto a su marido trabaja en monturas, billeteras y cinturones, todo lo hacen a mano y de forma artesanal. “Estoy en el segundo ciclo de Banigualdad en un grupo bien afiatado, donde nos tenemos harta confianza, lo pasamos bien y nuestra asesora es muy amorosa”, dice María en su casa donde además tiene su taller. Esta microempresaria trabaja las monturas a pedido, explica que tiene pedidos hasta diciembre y que han hecho envíos a Arica, Antofagasta y Tierra del Fuego gracias a Facebook. “Nuestra diferencia es que los productos son personalizados, los clientes nos piden los colores y diseños”, dice esta emprendedora.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Talabartería"],
+
+  "ubicacion":"Parral"
+
+},
+
+{
+
+  "name":"Sandra Hernández",
+
+  "id":12,
+
+  "img": "No disponible",
+
+  "reseña":"Siempre me ha encantado la repostería, hacía cosas dulces para mi casa. Una prima siempre me decía: ¿por qué no haces más y le vendes a otras personas? Yo no sabía ni cobrar, nada. Un día pasó una señora preguntando si conocíamos a alguien que hiciera tortas y mi prima dice: ¡ella! Así que le vendí a esta señora y partí con el negocio, todo de forma bien artesanal. Me siento bien aportando a la casa, me gusta ser independiente, me encanta trabajar la repostería y hacer cosas a pedido, me da la posibilidad de tener tiempos flexibles. Vendo hartos tipos de tortas: chocolate, manjar lúcuma, hojarasca, amapolas, tres leches. Banigualdad es una forma de ayuda con la que me pude comprar una batidora grande, producir a otra escala, me compré un cooler, así he ido creciendo. Uno pide un crédito en cualquier parte y te cobran mucho interés, en cambio Banigualdad te da la facilidad de pagar bien y tranquila, sin pensar que vas a pagar el doble una vez que termines”, nos dice Sandra Hernández, emprendedora de Puente Alto.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Reposteria"],
+
+  "ubicacion":"Puente Alto"
+
+},
+
+{
+
+  "name":"Margareth Peña",
+
+  "id":13,
+
+  "img": "No disponible",
+
+  "reseña":"Hace 10 años que vivo en Chile, soy de Perú. Me vine porque conocí a mi marido en Lima mientras él estaba de vacaciones. Nos conocimos y me invitó a conocer su país, ¡no nos separamos más! Supuestamente el viaje era para conocer y pasear por Santiago, pero él tenía otros planes conmigo, de formalizar y hacer una familia. Yo aprendí este oficio porque mi papá y abuelo trabajaban en esto. Se trata de la restauración y elaboración de figuras religiosas hechas de fibra de vidrio. ¡Especiales para Semana Santa! Una vez en Chile vi la oportunidad de seguir con lo que había aprendido en Perú y armar mi taller. Esto es lo que más me gusta, es mi pasión. Junté dinero para empezar este negocio y Banigualdad me apoyó para seguir creciendo. Mis clientes son las parroquias, casas particulares, todo lo promociono por Internet y Facebook. Trabajo con la fibra de vidrio que es un material plástico que no se rompe. Entré a Banigualdad por una vecina y he ocupado mis créditos en comprar materiales porque son caros, además muchas personas no te pagan el 50% de avance, sino que por el trabajo terminado, así me ordeno. Estoy en el 3er crédito con la Fundación que también me ha entregado capacitaciones interesantes. En el grupo me recibieron súper bien, lo primero que me preguntaron fue por la comida de mi país”, nos cuenta Margareth Peña de 39 años y un hijo, ella es emprendedora de Puente Alto.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Artesanía"],
+
+  "ubicacion":"Puente Alto"
+
+},
+
+{
+
+  "name":"José Vargas",
+
+  "id":14,
+
+  "img": "No disponible",
+
+  "reseña":"Llevo 6 años en la Fundación y me gusta mucho porque siempre apoyan a los microempresarios con cosas nuevas. Gracias a los préstamos he comprado insumos, he agrandado mi taller y ha crecido mi negocio. Soy nacido y criado en Pomaire, aprendí a trabajar la greda a través de un tío. Primero era el ayudante del taller, después pasé a ser el maestro. Me gusta trabajar la greda porque estás siempre creando y conoces mucha gente, vino hasta un Presidente a comprarme, mis productos perduran en la casa de las personas”, nos dice José Vargas, emprendedor de Banigualdad.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Alfarería"],
+
+  "ubicacion":"Pomaire"
+
+},
+
+{
+
+  "name":"Ana María Muñoz",
+
+  "id":15,
+
+  "img": "No disponible",
+
+  "reseña":"El grupo de Banigualdad es muy bueno, la gente es responsable y soy la tesorera de mi centro. Lo hemos pasado muy bien en la Fundación. Toda la vida me ha gustado hacer empanadas, llevo unos 30 años en esto. Siempre hacía poquitas, para la población o mis conocidos. Un día mi hija me dijo: “mamá, ¿por qué no vendes en mi trabajo?” y fui con ella. A la gente le gustaron mucho y después me empezaron a encargar. Estaba en eso cuando me hablaron de Banigualdad para poder surgir un poco más, lo pensé y dije: “¿Por qué no?”. Lo hice y estoy contenta porque he podido comprar un horno, mesones, un hornito eléctrico, herramientas para poder avanzar. Tengo 65 años, 4 hijos y me siento satisfecha, orgullosa de ver que se pueden hacer cosas y no estoy sentada en la casa. Me mantengo activa, eso es lo que único que uno necesita a esta edad”, nos dice Ana María Muñoz de Rancagua, que desde hace varios ciclos ya pide un millón de pesos de préstamo para poder seguir impulsando su negocio.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Cocina"],
+
+  "ubicacion":"Rancagua"
+
+},
+
+{
+
+  "name":"Esmerita Santana",
+
+  "id":16,
+
+  "img": "No disponible",
+
+  "reseña":"Voy en el cuarto ciclo de la Fundación, soy de la población La Victoria. Una amiga me invitó a participar en un grupo de Banigualdad y me acogieron súper bien. Muchas de mis compañeras llevaban tiempo, era un Centro antiguo. Me gusta ser emprendedora, me ha costado, me frustro de repente, pero ahí está mi mamá, mi marido para decirme que siga, que innove con otras cosas. Mi emprendimiento empezó con tortas y pastelería, ha estado un poco lento, por eso innovamos y decidimos comenzar con la venta de colaciones, humitas, pasteles de choclo. Esta es mi primera temporada con estos productos y queremos que sean cosas ricas y de calidad. De ser emprendedora me gusta encargarme de mi tiempo, soy mi jefa, lo que gano es para mí y si me falta, yo veo qué hacer” nos cuenta Esmerita Santana o “Mery” como a ella le gusta que le digan.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Cocina"],
+
+  "ubicacion":"La Victoria"
+
+},
+
+{
+
+  "name":"Priscila Contreras",
+
+  "id":17,
+
+  "img": "No disponible",
+
+  "reseña":"Priscila Contreras tiene 64 años y vive en Renca. Aprendió a empastar cuando estaba en el colegio y ese oficio le permitió sacar adelante a sus tres hijas cuando se separó hace varios años. Hoy complementa ese trabajo con la realización de tarjetas para baby showers, bautizos, cumpleaños, primeras comuniones y también partes de matrimonio. Su oficio es 100% artesanal, ya que en su trabajo incorpora el bordado a mano, técnica que aprendió hace años con unas religiosas que venían de Brasil. “Estoy orgullosa y feliz de lo que he logrado, mi grupo de Banigualdad es excelente, con mi asesora hemos hecho una alianza bien rica. Las capacitaciones de salud me han gustado, porque uno se descuida mucho a veces y con ellas vuelves a preocuparte por ti”, nos cuenta sonriente esta microempresaria.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Tarjeteria Artesanal"],
+
+  "ubicacion":"Renca"
+
+},
+
+
+{
+
+  "name":"Carolita Vidaurre",
+
+  "id":18,
+
+  "img": "No Disponible",
+
+  "reseña":"Estoy en Chile hace 10 años, antes viví mucho tiempo en Venezuela. Siempre me han gustado las manualidades y cuando nació mi primera hija empecé a hacer muñecas, lámparas, decoraciones en general. Un día una señora vio las muñecas y me encargó una, después vino otra y así se dieron a conocer. Luego una niña mexicana me compartió el molde de la muñeca de Frida Kahlo, la hice y ha tenido mucho éxito. Vendo mis productos en ferias artesanales y por el Facebook ‘Diseños artesanías Andrea Paz’. Entré a Banigualdad por una vecina, fui a una reunión y me gustó el sistema. Me he podido comprar insumos y estando en la Fundación pensé en abrirme a ferias y ofrecer mis productos ahí. Las clases de presupuesto y costos me han servido mucho, también la de formalizar la microempresa para así poder acceder a opciones como la Redcompra para ferias y eventos artesanales”, cuenta Carolita Vidaurre de Quilicura.",
+
+  "rubro":["Produccion"],
+
+  "categoria":["Manualidades"],
+
+  "ubicacion":"Quilicura"
+
+},
