@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Formulario.css'
+import { Link } from 'react-router-dom';
 
 class Formulario3 extends Component {
     render(){
@@ -72,7 +73,7 @@ class Formulario3 extends Component {
                                 Panadería
                             </label>
                         </div>
-                    <button className="continue btn btn-block mt-4">Finalizar</button>
+                    <Link to="/Noticias"className="continue btn btn-block mt-4">Finalizar</Link>
                 </form>
            </div>
         )

@@ -4,6 +4,7 @@ import vasos from './imagenes/JUE_vin_01-600x600.jpg'
 import olla from './imagenes/OLL_arr_03-600x600.jpg'
 import sarten from './imagenes/SAR_gre-600x600.jpg'
 import copas from './imagenes/SET_cop_01-600x600.jpg'
+import NavbarPag from '../Navbar/navbar-emp'
 
 
 class PerfilPage extends Component {
@@ -12,19 +13,14 @@ render() {
 
     return (
     <div>
-    <div class="container">
-        <header class="blog-header py-3 navbar" >
-            <div class="row flex-nowrap justify-content-between align-items-center">
-                <a class="blog-header-logo text-white" href="##">BanIgualdad</a>
-             
-            </div>
-        </header>
+      <NavbarPag/>  
+    <div class="container">              
         <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark about">
             <div class="col-md-6 px-0 aboutme">
                 <h1 class="display-4 loto">Solange Céspedes</h1>
                 <p class=" lead my-3 loto">"La greda es como una terapia para mí. El hecho de trabajarla, de crear, es un arte, es algo magnífico y maravilloso”</p>              
             </div>
-            <p class="mb-0"><a href="##" class="badge badge-primary badge-pill loto">Contacta con Solange...</a></p>
+            <div class="mb-0"><a href="##" class="badge badge-pill loto">Contacta con Solange...</a></div>
         </div>       
         <div class="sobremi">
                     <h3 class="pb-4 mb-4 font-italic border-bottom loto"> Sobre Solange

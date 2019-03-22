@@ -34,3 +34,8 @@ textarea{
     height: auto;
     overflow: hidden;
 }
+
+.picturePerfil{
+    width: 150px;
+    height: 150px;
+}

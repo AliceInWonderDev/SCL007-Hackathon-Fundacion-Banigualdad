@@ -1,28 +1,27 @@
 import React, { Component } from 'react';
 import './Navbar.css';
-
+import { Link } from 'react-router-dom';
+import logoweb from '../Login/logo_web-01 copia.png'
 class NavbarEmp extends Component {
-    constructor(props) {
-        super(props);
-    }
+  
 
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light">
-                <img className="icon-nav" src="https://raw.githubusercontent.com/marianacarbonell/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/volantin.png" />
+                <Link to="/catalogo"><img className="icon-nav" alt="volantin"src={logoweb}/></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-link">
-                            <a className="nav-link text-white" href="../Catalogo/">Emprendedores <span className="sr-only">(current)</span></a>
+                            <Link className="nav-link text-white" to="./Catalogo/">Catálogo</Link>
                         </li>
                         <li className="nav-link">
-                            <a className="nav-link text-white" href="../Formulario/formulario.js">Editar Perfil <span className="sr-only">(current)</span></a>
+                            <Link className="nav-link text-white" to="./Formulario">Editar Perfil </Link>
                         </li>
                         <li className="nav-link">
-                            <a className="nav-link text-white" href="../Formulario/formulario.js">Cerrar Sesión <span className="sr-only">(current)</span></a>
+                            <Link className="nav-link text-white" to="./Login">Cerrar Sesión</Link>
                         </li>
                     </ul>
                 </div>

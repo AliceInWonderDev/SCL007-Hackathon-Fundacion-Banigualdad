@@ -25,6 +25,7 @@
     font-family: 'Lato', sans-serif;
   }
   
+  
   .nav-scroller {
     position: relative;
     z-index: 2;
@@ -94,19 +95,24 @@
   text-shadow: #000 0px 0px 5px, #000 0px 0px 10px, #000 0px 0px 15px, #000 0px 0px 20px;
 }
 .badge{
-  padding: 1.5%;
+  background: -webkit-linear-gradient(90deg, #206FB7 10%, #15A3DD  90%);
+  color: white;
+  padding: 2%;
   text-shadow: 2px 2px 4px black;
   font-size: 15px;
 }
 
-
+.mb-0{
+  text-align: center;
+  position: relative;
+}
 
 .photo{
     width: 100%;
 }
 
 .sobremi{
-    background: #F6F6F6;
+    background: #ebf0f6;
     color: black;
     padding: 5%;
     opacity: 0.7;

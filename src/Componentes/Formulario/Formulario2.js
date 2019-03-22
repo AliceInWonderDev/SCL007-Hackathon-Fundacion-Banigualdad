@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import './Formulario.css'
 
 class Formulario2 extends Component {
@@ -8,7 +9,7 @@ class Formulario2 extends Component {
                 <form>
                     <div className="box">
                         <h5 className="text-center mt-10 mb-10">Selecciona una foto de tu emprendimiento</h5>
-                            <a href="#">
+                            <a href="##">
                                 <i className="material-icons">
                                 photo_camera
                                 </i>
@@ -45,8 +46,7 @@ class Formulario2 extends Component {
                                 ></textarea>
                             </div>
                         </div>
-                    
-                        <button className="continue btn btn-block">Continuar</button>
+                        <Link to="/Formulario3" className="continue btn btn-block">Continuar</Link>
                     </div>
                 </form>
            </div>

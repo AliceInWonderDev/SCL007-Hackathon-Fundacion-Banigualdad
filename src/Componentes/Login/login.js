@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from 'firebase';
-import { auth, facebookProvider } from '../../FirebaseConfig/provider';
+import logoWeb from './logo_web-01 copia.png'
+import { /*auth, */facebookProvider } from '../../FirebaseConfig/provider';
 import './welcome.css'
 
 class Login extends Component {
@@ -38,13 +39,14 @@ class Login extends Component {
     render() {
         const { error } = this.state;
         return (
-            <div className="component">
+            <div className="component login">
                 <div className="row center">
-                    {error ? <p>{error.message}</p> : null}
+                    {error ? <p>{error.message}</p> : false}
                 </div>
-                <div className="row center">
-                    <img src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/VOLANTIN.png" />
+                <div className="row">
+                    <img alt="volantin" className="logoweb"src={logoWeb} />
                 </div>
+                <div className="containerLogin">
                 <div className="row center">
                     <div className="col-8">
                         <h3 className="welcomeMsg">¡Bienvenido, unete a nuestra comunidad de emprendedores!</h3>
@@ -52,13 +54,14 @@ class Login extends Component {
                 </div>
                 <div className="row center">
                     <div className="col-7">
-                        <h4><Link to='./emailLogin' className="btn btn-danger btn-block"><i className="material-icons">email</i> Accede con tu correo</Link></h4>
+                        <h4><Link to='./emailLogin' className="btn btn-danger"><i className="material-icons">email</i> Accede con tu correo</Link></h4>
                     </div>
                 </div>
                 <div className="row center">
                     <div className="col-7">
-                        <button onClick={this.handleSubmit} className="btn btn-primary btn-block"><img src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/facebook.png" /> Accede con Facebook</button>
+                        <button onClick={this.handleSubmit} className="btn btn-primary"><img alt="botonFacebook"src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/facebook.png" /> Accede con Facebook</button>
                     </div>
+                </div>
                 </div>
             </div>
         )

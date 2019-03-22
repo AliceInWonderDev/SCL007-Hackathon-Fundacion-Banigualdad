@@ -5,8 +5,7 @@ class Search extends Component{
     render(){
         return(
         <div>
-            <h1>Nuestros Emprendedores</h1>
-            <div className="btn-group ml-4 mr-4">
+            <div className="btn-group ml-4 mr-4 mt-4">
             <button type="button" className="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
                     Buscar por rubro
                 </button>
@@ -16,7 +15,7 @@ class Search extends Component{
                     <button className="dropdown-item" type="button">Comercio</button>
                     </div>
             </div>
-            <div className="btn-group ml-4 mr-4">
+            <div className="btn-group ml-4 mr-4 mt-4">
             <button type="button" className="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
                         Buscar por categoría
                     </button>
@@ -27,7 +26,7 @@ class Search extends Component{
                         <button className="dropdown-item" type="button">Alimentos</button>
                         <button className="dropdown-item" type="button">Venta de Artículos</button>
                         </div>
-                </div>
+            </div>
         </div>
         )
     }
