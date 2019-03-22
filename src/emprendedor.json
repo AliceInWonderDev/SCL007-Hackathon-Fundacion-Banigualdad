@@ -14,12 +14,26 @@
 
     "rubro":["Produccion"],
 
-    "categoria":["Alfarería"],
+    "categoria":["Manualidades"],
+
+    "productos":[
+      "Vasijas",{
+        "img":"https://ibb.co/qCwDNpj"
+      },
+      "Jarras",{
+        "img":"https://ibb.co/gR5g0p0"
+      },
+      "Floreros",{
+        "img":"https://ibb.co/ncZgtbN"
+      },
+      "Vasos",{
+        "img":"https://ibb.co/zFqJmJs"
+        }],
+  
 
     "ubicacion":"Pomaire"
 
   },
-
 {
 
     "name":"Alice Peñailillo",
@@ -32,13 +46,20 @@
 
     "rubro":["Produccion"],
 
-    "categoria":["Terapia Complementaria"],
+    "categoria":["Productos naturales"],
+    
+    "productos":[
+      "Orgones",{
+        "img":"http://tiendaangeles.cl/159-large_default/colgante-orgones.jpg"
+      },
+      "Bolsas de cuarzo",{
+        "img":"https://www.mineralesberkano.com/fileuploads/products/cuarzo-grande-275-1513942224-small.jpg"
+      }],
+
 
     "ubicacion":"San Antonio"
 
 },
-
-
 {
 
   "name":"Marianela Córdova",
@@ -51,7 +72,19 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Costura de uniformes"],
+  "categoria":["Costura"],
+
+  "productos":[
+    "Poleras",{
+      "img":"https://www.aguasantaconfecciones.cl/wp-content/uploads/2017/07/Polera-Pique-Colegio-1-315x462.png"
+    },
+    "Pantalones",{
+      "img":"https://static0.tiendeo.pe/galeria/producto/2543/pantalones%20escolares.jpg"
+    },
+    "Buzos",{
+      "img":"https://lh3.googleusercontent.com/-sei2wMkMWEc/V_azRTgzcQI/AAAAAAAAFAw/JOkCOJWShBghqDfXJVlj06BDt1_K2--MgCKgB/s400/Buzo14.jpg"
+    }],
+
 
   "ubicacion":"Padre Hurtado"
 
@@ -60,7 +93,7 @@
 
   "name":"María Gómez",
 
-  "id":3,
+  "id":4,
 
   "img": "https://www.banigualdad.cl/wp-content/uploads/2017/11/m.cristinagomez.jpg",
 
@@ -68,18 +101,31 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Brochetas"],
+  "categoria":["Alimentos"],
+
+  "productos":[
+    "Arrollado Huaso",{
+      "img":"https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwiD7s7wipThAhWfK7kGHT9nCzQQjRx6BAgBEAU&url=https%3A%2F%2Fwikicharlie.cl%2Fw%2FArrollado_de_Huaso&psig=AOvVaw2eiQKZlZWJrP-0N61TbR67&ust=1553286933454537"
+    },
+    "Queso Cabeza",{
+      "img":"http://www.mycolombiancocina.com/images/appetisers/queso_de_cerdo.jpg"
+    },
+    "Tortillas",{
+      "img":"https://okdiario.com/img/2018/04/09/tortillas-maiz-655x368.jpg"
+    },
+    "Chicharrones",{
+      "img":"https://www.cocinadominicana.com/wp-content/uploads/2010/10/como-hacer-chicharrones-DSC_7909.jpg"
+    }],
+
 
   "ubicacion":"Maule"
 
 },
-
-
 {
 
   "name":"Luz Gacitúa",
 
-  "id":4,
+  "id":5,
 
   "img": "https://www.banigualdad.cl/wp-content/uploads/2018/01/luz-gacita.jpg",
 
@@ -87,18 +133,28 @@
 
   "rubro":["Comercio"],
 
-  "categoria":["Venta de Maquillaje"],
+  "categoria":["Venta de productos"],
+
+  "productos":[
+    "Labiales",{
+      "img":"https://www.somosmamas.com.ar/wp-content/uploads/2018/05/labiales-en-barra.jpg"
+    },
+    "Polvo compacto",{
+      "img":"https://belletica.com/62721-large_default/maquillaje-en-polvo-compacto-wet-dry.jpg"
+    },
+    "Sombras de ojos",{
+      "img":"https://i.linio.com/p/663707f18f874787bc03df542c4126e6-product.jpg"
+    }],
+
 
   "ubicacion":"Maipu"
 
 },
-
-
 {
 
   "name":"Magdalena Durán ",
 
-  "id":5,
+  "id":6,
 
   "img": "https://www.banigualdad.cl/wp-content/uploads/2017/12/magdalena-duran.jpg",
 
@@ -106,13 +162,26 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Manualidad navideña"],
+  "categoria":["Manualidades"],
+
+  "productos":[
+    "Manteles",{
+      "img":"https://www.lashilanderas.com/wp-content/uploads/2017/11/2L2A4759-e1509700212877.jpg"
+    },
+    "Adordos para el arbol",{
+      "img":"https://i.ytimg.com/vi/kafK6914mAI/hqdefault.jpg"
+    },
+    "Camino de mesa",{
+      "img":"https://i.pinimg.com/originals/32/ad/77/32ad771dfccefefab7c16069a7f63114.jpg"
+    },
+    "Forro para silla",{
+      "img":"https://i.ytimg.com/vi/rqwvnmfY35w/maxresdefault.jpg"
+    }],
+
 
   "ubicacion":"Peñalolen"
 
 },
-
-
 {
 
   "name":"Patricia Abarca",
@@ -127,11 +196,21 @@
 
   "categoria":["Costura"],
 
+  "productos":[
+    "Gorros Temáticos",{
+      "img":"https://i.pinimg.com/originals/be/00/81/be0081678b7e408e11935bea5e05966d.jpg"
+    },
+    "Trajes de Mario Bross",{
+      "img":"https://http2.mlstatic.com/D_NP_607605-MLM25617403767_052017-Q.jpg"
+    },
+    "Trajes de Pincesas",{
+      "img":"https://http2.mlstatic.com/disfraz-cenicienta-cristal-princesa-partido-traje-vestido-c-D_NQ_NP_603244-MLM28044150710_082018-F.jpg"
+    }],
+
+
   "ubicacion":"Santiago, El Bosque"
 
 },
-
-
 {
 
   "name":"Marisol Burgos",
@@ -144,12 +223,26 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
+  
+  "productos":[
+    "Cazuela de Vacuno",{
+      "img":"https://www.gourmet.cl/wp-content/uploads/2011/03/cazuela_de_vacuno.jpg"
+    },
+    "Porotos",{
+      "img":"https://static0.misionesonline.net/wp-content/uploads/2017/07/fc39f1_2016_08_18_porotos-para-el-corazon-y-la-salud-30c7asg6v6a0.png"
+    },
+    "Pollo Arvejado",{
+      "img":"http://www.tottus.cl/static/recetas/images/pollo-arvejado-con-pure-de-papas.jpg"
+    },
+    "Mote con huesillos",{
+      "img":"https://www.seryomisma.com/wp-content/uploads/2018/11/file_20170915170325.jpg"
+    }],
+
 
   "ubicacion":"Maule"
 
 },
-
 {
 
   "name":"Ernestina Cruz",
@@ -162,12 +255,20 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
+
+  "productos":[
+    "Pan amasado en horno de barro",{
+      "img":"https://media.metrolatam.com/2018/02/13/maxresdefault2700x394-1200x800.jpg"
+    },
+    "Arrollado Huaso",{
+      "img":"https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwiD7s7wipThAhWfK7kGHT9nCzQQjRx6BAgBEAU&url=https%3A%2F%2Fwikicharlie.cl%2Fw%2FArrollado_de_Huaso&psig=AOvVaw2eiQKZlZWJrP-0N61TbR67&ust=1553286933454537"
+    }],
+
 
   "ubicacion":"Putaendo"
 
 },
-
 {
 
   "name":"Guadalupe Hernández",
@@ -182,10 +283,16 @@
 
   "categoria":["Productos Naturales"],
 
+  "productos":[
+    "Suplementos Naturales",{
+      "img":"https://www.doctorjuandiego.com/assets/noticias/95.jpg"
+    }
+    ],
+
+
   "ubicacion":"Lo Abarca"
 
 },
-
 {
 
   "name":"María Ibarra",
@@ -198,128 +305,197 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Talabartería"],
+  "categoria":["Manualidades"],
+
+  "productos":[
+    "Monturas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F236x%2F1c%2Fc7%2Fe4%2F1cc7e4fa84fff788da63a29d96df2ab4--cowboy-cowgirl.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Famartinezmarroq%2Fmonturas-para-caballos%2F&docid=HU34-Xi75rZ6uM&tbnid=X1i8bAU9clSVXM%3A&vet=10ahUKEwjxvN-AhJThAhW1HbkGHfXoDYwQMwjsASgIMAg..i&w=236&h=314&bih=669&biw=1299&q=monturas%20de%20caballos&ved=0ahUKEwjxvN-AhJThAhW1HbkGHfXoDYwQMwjsASgIMAg&iact=mrc&uact=8"
+    },
+    "Billeteras",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fmlstaticquic-a.akamaihd.net%2Fbilletera-para-hombre-de-cuero-con-presilla-cod-50-D_NQ_NP_792221-MLU20730330773_052016-F.jpg&imgrefurl=https%3A%2F%2Farticulo.mercadolibre.com.uy%2FMLU-444279890-billetera-para-hombre-de-cuero-con-presilla-cod-50-_JM&docid=xBpnhKFEmBybxM&tbnid=f5yqsxDKIkrmrM%3A&vet=10ahUKEwjXpM_9hJThAhW_ErkGHX4tDmkQMwg-KAEwAQ..i&w=950&h=722&bih=669&biw=1299&q=billeteras%20para%20hombre&ved=0ahUKEwjXpM_9hJThAhW_ErkGHX4tDmkQMwg-KAEwAQ&iact=mrc&uact=8"
+    },
+    "Cinturones",{
+      "img":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fezpiel.es%2Fekmps%2Fshops%2F1d72b5%2Fimages%2Fcintur-n-de-piel-para-hombre-emilio-faraoni-modelo-0004704-35-cuero-1868-p.jpg&imgrefurl=http%3A%2F%2Fezpiel.es%2Fcinturon-de-piel-para-hombre-emilio-faraoni-modelo-000470435-cuero-1868-p.asp&docid=YtxcblZ5phrP0M&tbnid=z-VOUA9FI7GsQM%3A&vet=10ahUKEwilrZOQhZThAhU6HrkGHfzlDpAQMwiAASgKMAo..i&w=800&h=489&bih=669&biw=1299&q=cinturones%20de%20cuero&ved=0ahUKEwilrZOQhZThAhU6HrkGHfzlDpAQMwiAASgKMAo&iact=mrc&uact=8"
+    }],
+
 
   "ubicacion":"Parral"
 
 },
-
 {
 
   "name":"Sandra Hernández",
 
   "id":12,
 
-  "img": "No disponible",
+  "img": "https://files.slack.com/files-pri/T0NNB6T0R-FH58N5RCL/volantin.png",
 
   "reseña":"Siempre me ha encantado la repostería, hacía cosas dulces para mi casa. Una prima siempre me decía: ¿por qué no haces más y le vendes a otras personas? Yo no sabía ni cobrar, nada. Un día pasó una señora preguntando si conocíamos a alguien que hiciera tortas y mi prima dice: ¡ella! Así que le vendí a esta señora y partí con el negocio, todo de forma bien artesanal. Me siento bien aportando a la casa, me gusta ser independiente, me encanta trabajar la repostería y hacer cosas a pedido, me da la posibilidad de tener tiempos flexibles. Vendo hartos tipos de tortas: chocolate, manjar lúcuma, hojarasca, amapolas, tres leches. Banigualdad es una forma de ayuda con la que me pude comprar una batidora grande, producir a otra escala, me compré un cooler, así he ido creciendo. Uno pide un crédito en cualquier parte y te cobran mucho interés, en cambio Banigualdad te da la facilidad de pagar bien y tranquila, sin pensar que vas a pagar el doble una vez que termines”, nos dice Sandra Hernández, emprendedora de Puente Alto.",
 
   "rubro":["Produccion"],
 
-  "categoria":["Reposteria"],
+  "categoria":["Alimentos"],
+
+  "productos":[
+    "Tortas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.gourmet.cl%2Fwp-content%2Fuploads%2F2017%2F02%2F16-507x458.jpg&imgrefurl=https%3A%2F%2Fwww.gourmet.cl%2Frecetas%2Ftorta-mil-hojas%2F&docid=HbKynw7i_p1eUM&tbnid=lCFH_FPKbJXtgM%3A&vet=10ahUKEwjs65DEhZThAhXpKrkGHSj2AR8QMwh_KAMwAw..i&w=507&h=458&bih=669&biw=1299&q=milhojas&ved=0ahUKEwjs65DEhZThAhXpKrkGHSj2AR8QMwh_KAMwAw&iact=mrc&uact=8"
+    },
+    "Queques",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2F4.bp.blogspot.com%2F-R0S338-8Kyg%2FWgSQJtPG_cI%2FAAAAAAAALMc%2FeASZjagJLWUY0pbEuAQR5WsksdG4dpcygCLcBGAs%2Fs1600%2FTortas%252Bflores%252B00.jpg&imgrefurl=https%3A%2F%2Fguiamaschicos.blogspot.com%2F2017%2F11%2F15-tortas-decoradas-con-flores.html&docid=3tMgn8jqiXO-1M&tbnid=t6bDd-b8ve8uwM%3A&vet=10ahUKEwjPnsWnhZThAhW7JbkGHZTaBQoQMwiwAigPMA8..i&w=810&h=600&bih=669&biw=1299&q=tortas%20decoradas&ved=0ahUKEwjPnsWnhZThAhW7JbkGHZTaBQoQMwiwAigPMA8&iact=mrc&uact=8"
+    },
+    "Hojaldres",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2F4.bp.blogspot.com%2F-CYjUB1tZRMU%2FWidRhLB8GJI%2FAAAAAAAAaLY%2Fg8j7JO7T6wgKjBAxWS9NZ6FjuUAtpI-pACLcBGAs%2Fs1600%2FHojaldres%252Bsalados%252Brellenos%252B01.jpg&imgrefurl=http%3A%2F%2Fwww.cuuking.com%2F2017%2F12%2Fhojaldres-salados-rellenos-6-ideas.html&docid=8iFlR9rtipnGEM&tbnid=ceVE76Oc6Hh_7M%3A&vet=10ahUKEwiGvOPkhZThAhUEKrkGHQ9gC-QQMwjHAigVMBU..i&w=1600&h=899&bih=669&biw=1299&q=hojaldres&ved=0ahUKEwiGvOPkhZThAhUEKrkGHQ9gC-QQMwjHAigVMBU&iact=mrc&uact=8"
+    }],
+
 
   "ubicacion":"Puente Alto"
 
 },
-
 {
 
   "name":"Margareth Peña",
 
   "id":13,
 
-  "img": "No disponible",
+  "img": "https://files.slack.com/files-pri/T0NNB6T0R-FH58N5RCL/volantin.png",
 
   "reseña":"Hace 10 años que vivo en Chile, soy de Perú. Me vine porque conocí a mi marido en Lima mientras él estaba de vacaciones. Nos conocimos y me invitó a conocer su país, ¡no nos separamos más! Supuestamente el viaje era para conocer y pasear por Santiago, pero él tenía otros planes conmigo, de formalizar y hacer una familia. Yo aprendí este oficio porque mi papá y abuelo trabajaban en esto. Se trata de la restauración y elaboración de figuras religiosas hechas de fibra de vidrio. ¡Especiales para Semana Santa! Una vez en Chile vi la oportunidad de seguir con lo que había aprendido en Perú y armar mi taller. Esto es lo que más me gusta, es mi pasión. Junté dinero para empezar este negocio y Banigualdad me apoyó para seguir creciendo. Mis clientes son las parroquias, casas particulares, todo lo promociono por Internet y Facebook. Trabajo con la fibra de vidrio que es un material plástico que no se rompe. Entré a Banigualdad por una vecina y he ocupado mis créditos en comprar materiales porque son caros, además muchas personas no te pagan el 50% de avance, sino que por el trabajo terminado, así me ordeno. Estoy en el 3er crédito con la Fundación que también me ha entregado capacitaciones interesantes. En el grupo me recibieron súper bien, lo primero que me preguntaron fue por la comida de mi país”, nos cuenta Margareth Peña de 39 años y un hijo, ella es emprendedora de Puente Alto.",
 
   "rubro":["Produccion"],
 
-  "categoria":["Artesanía"],
+  "categoria":["Manualidades"],
+
+  "productos":[
+    "Elaboración y restauración de figugras religiosas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fhttp2.mlstatic.com%2Ffiguras-religiosas-familia-barroco-original-poliresina-43cm-D_NQ_NP_744525-MLV25444314919_032017-F.jpg&imgrefurl=https%3A%2F%2Farticulo.mercadolibre.com.ve%2FMLV-488807727-figuras-religiosas-familia-barroco-original-poliresina-43cm-_JM&docid=KC3SWAHzIJfaEM&tbnid=YJ1A0Jnh8ElI5M%3A&vet=10ahUKEwiex8H4hZThAhUDJrkGHc3gCCkQMwhgKAAwAA..i&w=780&h=1052&bih=669&biw=1299&q=figuras%20religiosas&ved=0ahUKEwiex8H4hZThAhUDJrkGHc3gCCkQMwhgKAAwAA&iact=mrc&uact=8"
+    }],
+
 
   "ubicacion":"Puente Alto"
 
 },
-
 {
 
   "name":"José Vargas",
 
   "id":14,
 
-  "img": "No disponible",
+  "img": "https://files.slack.com/files-pri/T0NNB6T0R-FH58N5RCL/volantin.png",
 
   "reseña":"Llevo 6 años en la Fundación y me gusta mucho porque siempre apoyan a los microempresarios con cosas nuevas. Gracias a los préstamos he comprado insumos, he agrandado mi taller y ha crecido mi negocio. Soy nacido y criado en Pomaire, aprendí a trabajar la greda a través de un tío. Primero era el ayudante del taller, después pasé a ser el maestro. Me gusta trabajar la greda porque estás siempre creando y conoces mucha gente, vino hasta un Presidente a comprarme, mis productos perduran en la casa de las personas”, nos dice José Vargas, emprendedor de Banigualdad.",
 
   "rubro":["Produccion"],
 
-  "categoria":["Alfarería"],
+  "categoria":["Manualidades"],
+
+  "productos":[
+    "Vasijas",{
+      "img":"https://ibb.co/qCwDNpj"
+    },
+    "Jarras",{
+      "img":"https://ibb.co/gR5g0p0"
+    },
+    "Floreros",{
+      "img":"https://ibb.co/ncZgtbN"
+    },
+    "Vasos",{
+      "img":"https://ibb.co/zFqJmJs"
+      }],
 
   "ubicacion":"Pomaire"
 
 },
-
 {
 
   "name":"Ana María Muñoz",
 
   "id":15,
 
-  "img": "No disponible",
+  "img": "https://files.slack.com/files-pri/T0NNB6T0R-FH58N5RCL/volantin.png",
 
   "reseña":"El grupo de Banigualdad es muy bueno, la gente es responsable y soy la tesorera de mi centro. Lo hemos pasado muy bien en la Fundación. Toda la vida me ha gustado hacer empanadas, llevo unos 30 años en esto. Siempre hacía poquitas, para la población o mis conocidos. Un día mi hija me dijo: “mamá, ¿por qué no vendes en mi trabajo?” y fui con ella. A la gente le gustaron mucho y después me empezaron a encargar. Estaba en eso cuando me hablaron de Banigualdad para poder surgir un poco más, lo pensé y dije: “¿Por qué no?”. Lo hice y estoy contenta porque he podido comprar un horno, mesones, un hornito eléctrico, herramientas para poder avanzar. Tengo 65 años, 4 hijos y me siento satisfecha, orgullosa de ver que se pueden hacer cosas y no estoy sentada en la casa. Me mantengo activa, eso es lo que único que uno necesita a esta edad”, nos dice Ana María Muñoz de Rancagua, que desde hace varios ciclos ya pide un millón de pesos de préstamo para poder seguir impulsando su negocio.",
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
+
+  "productos":[
+    "Empanadas",{
+      "img":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.midiariodecocina.com%2Fwp-content%2Fuploads%2F2015%2F07%2FEmpanadas-de-mariscos01.jpg&imgrefurl=http%3A%2F%2Fwww.midiariodecocina.com%2Fempanadas-de-mariscos%2F&docid=gb0946IM7tjxiM&tbnid=TjqgSreRqwPz4M%3A&vet=10ahUKEwj84PqrhpThAhVMDrkGHfLWCRIQMwiSASgDMAM..i&w=700&h=467&bih=669&biw=1299&q=empanadas%20chilenas&ved=0ahUKEwj84PqrhpThAhVMDrkGHfLWCRIQMwiSASgDMAM&iact=mrc&uact=8"
+    },
+    "Sopaipillas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.brujulaytenedor.com%2Fwp-content%2Fuploads%2F2016%2F05%2Fimg_0154-1024x678-740x480.jpg&imgrefurl=https%3A%2F%2Fwww.brujulaytenedor.com%2F2016%2F04%2F05%2Fsopaipillas%2F&docid=aDD6UEwGElTNMM&tbnid=UZla9ET26bGnKM%3A&vet=10ahUKEwj3tvy7hpThAhXXILkGHcGUBD0QMwhuKAowCg..i&w=740&h=480&bih=669&biw=1299&q=sopaipillas%20chilenas&ved=0ahUKEwj3tvy7hpThAhXXILkGHcGUBD0QMwhuKAowCg&iact=mrc&uact=8"
+    },
+    "Arrollados Primavera",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Ftruffle-assets.imgix.net%2F2b0b0779-arrolladitos-primavera_1920x1080-thumbnail.jpg&imgrefurl=https%3A%2F%2Fes.tastemade.com%2Fvideos%2Farrolladitos-primavera&docid=qatPF0a1G026RM&tbnid=9jBhP0gCmL5GsM%3A&vet=10ahUKEwiUooHjhpThAhX9HLkGHQlvCSwQMwhHKAQwBA..i&w=1920&h=1080&bih=669&biw=1299&q=arrollados%20primavera&ved=0ahUKEwiUooHjhpThAhX9HLkGHQlvCSwQMwhHKAQwBA&iact=mrc&uact=8"
+    }],
+
 
   "ubicacion":"Rancagua"
 
 },
-
 {
 
   "name":"Esmerita Santana",
 
   "id":16,
 
-  "img": "No disponible",
+  "img": "https://files.slack.com/files-pri/T0NNB6T0R-FH58N5RCL/volantin.png",
 
   "reseña":"Voy en el cuarto ciclo de la Fundación, soy de la población La Victoria. Una amiga me invitó a participar en un grupo de Banigualdad y me acogieron súper bien. Muchas de mis compañeras llevaban tiempo, era un Centro antiguo. Me gusta ser emprendedora, me ha costado, me frustro de repente, pero ahí está mi mamá, mi marido para decirme que siga, que innove con otras cosas. Mi emprendimiento empezó con tortas y pastelería, ha estado un poco lento, por eso innovamos y decidimos comenzar con la venta de colaciones, humitas, pasteles de choclo. Esta es mi primera temporada con estos productos y queremos que sean cosas ricas y de calidad. De ser emprendedora me gusta encargarme de mi tiempo, soy mi jefa, lo que gano es para mí y si me falta, yo veo qué hacer” nos cuenta Esmerita Santana o “Mery” como a ella le gusta que le digan.",
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
+
+  "productos":[
+    "tortas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.gourmet.cl%2Fwp-content%2Fuploads%2F2017%2F02%2F16-507x458.jpg&imgrefurl=https%3A%2F%2Fwww.gourmet.cl%2Frecetas%2Ftorta-mil-hojas%2F&docid=HbKynw7i_p1eUM&tbnid=lCFH_FPKbJXtgM%3A&vet=10ahUKEwjs65DEhZThAhXpKrkGHSj2AR8QMwh_KAMwAw..i&w=507&h=458&bih=669&biw=1299&q=milhojas&ved=0ahUKEwjs65DEhZThAhXpKrkGHSj2AR8QMwh_KAMwAw&iact=mrc&uact=8"
+    },
+    "Pasteles",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.lesamis.cl%2FImagenes%2FDulcesChilenos8_Thumbnail.jpg&imgrefurl=https%3A%2F%2Fwww.lesamis.cl%2Fpasteleria.html&docid=9OQweTdQklFgnM&tbnid=A45go2WJiauODM%3A&vet=10ahUKEwjMzbKLh5ThAhWCJ7kGHfD3BkoQMwhpKAowCg..i&w=240&h=180&bih=669&biw=1299&q=pasteles%20chileno&ved=0ahUKEwjMzbKLh5ThAhWCJ7kGHfD3BkoQMwhpKAowCg&iact=mrc&uact=8#h=180&imgdii=xzlS-6UM-43KQM:&vet=10ahUKEwjMzbKLh5ThAhWCJ7kGHfD3BkoQMwhpKAowCg..i&w=240"
+    },
+    "Humitas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.gourmet.cl%2Fwp-content%2Fuploads%2F2012%2F01%2FHumitas-e1325692985982.jpg&imgrefurl=https%3A%2F%2Fwww.gourmet.cl%2Frecetas%2Fhumitas%2F&docid=eBKgzTMevuxULM&tbnid=wtyrY4Gy8bUYuM%3A&vet=10ahUKEwjG8vCih5ThAhVxEbkGHY2sB6QQMwg_KAAwAA..i&w=570&h=330&bih=669&biw=1299&q=humitas&ved=0ahUKEwjG8vCih5ThAhVxEbkGHY2sB6QQMwg_KAAwAA&iact=mrc&uact=8"
+    }],
+
 
   "ubicacion":"La Victoria"
 
 },
-
 {
 
   "name":"Priscila Contreras",
 
   "id":17,
 
-  "img": "No disponible",
+  "img": "https://files.slack.com/files-pri/T0NNB6T0R-FH58N5RCL/volantin.png",
 
   "reseña":"Priscila Contreras tiene 64 años y vive en Renca. Aprendió a empastar cuando estaba en el colegio y ese oficio le permitió sacar adelante a sus tres hijas cuando se separó hace varios años. Hoy complementa ese trabajo con la realización de tarjetas para baby showers, bautizos, cumpleaños, primeras comuniones y también partes de matrimonio. Su oficio es 100% artesanal, ya que en su trabajo incorpora el bordado a mano, técnica que aprendió hace años con unas religiosas que venían de Brasil. “Estoy orgullosa y feliz de lo que he logrado, mi grupo de Banigualdad es excelente, con mi asesora hemos hecho una alianza bien rica. Las capacitaciones de salud me han gustado, porque uno se descuida mucho a veces y con ellas vuelves a preocuparte por ti”, nos cuenta sonriente esta microempresaria.",
 
   "rubro":["Produccion"],
 
-  "categoria":["Tarjeteria Artesanal"],
+  "categoria":["Manualidades"],
+
+  "productos":[
+    "Tarjetas de matrimonio",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn0.matrimonio.com.co%2Fimg_e_116716%2F6%2F7%2F1%2F6%2Ft30_img-20170315-110704905-hdr_10_116716.jpg&imgrefurl=https%3A%2F%2Fwww.matrimonio.com.co%2Farticulos%2Finvitaciones-de-boda-22-ideas-originales--c6010&docid=_lYDOmso_IxryM&tbnid=aAvnS3xiDVb_dM%3A&vet=10ahUKEwjJlKa_h5ThAhWhErkGHeArCCEQMwijASgEMAQ..i&w=823&h=462&bih=669&biw=1299&q=tarjetas%20de%20matrimonio&ved=0ahUKEwjJlKa_h5ThAhWhErkGHeArCCEQMwijASgEMAQ&iact=mrc&uact=8"
+    },
+    "Tarjetas de baby showers",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fhttp2.mlstatic.com%2Finvitaciones-baby-shower-nino-D_NQ_NP_728288-MLM26974791098_032018-F.jpg&imgrefurl=https%3A%2F%2Farticulo.mercadolibre.com.mx%2FMLM-617123476-invitaciones-baby-shower-nino-_JM&docid=6cYSlfhr-7H5iM&tbnid=EcL-kYNA15O6gM%3A&vet=10ahUKEwj9jbjOh5ThAhUQHrkGHdisAakQMwjLASgEMAQ..i&w=825&h=638&bih=669&biw=1299&q=tarjetas%20de%20baby%20shower&ved=0ahUKEwj9jbjOh5ThAhUQHrkGHdisAakQMwjLASgEMAQ&iact=mrc&uact=8"
+    }],
+
 
   "ubicacion":"Renca"
 
 },
-
-
 {
 
   "name":"Carolita Vidaurre",
 
   "id":18,
 
-  "img": "No Disponible",
+  "img": "https://files.slack.com/files-pri/T0NNB6T0R-FH58N5RCL/volantin.png",
 
   "reseña":"Estoy en Chile hace 10 años, antes viví mucho tiempo en Venezuela. Siempre me han gustado las manualidades y cuando nació mi primera hija empecé a hacer muñecas, lámparas, decoraciones en general. Un día una señora vio las muñecas y me encargó una, después vino otra y así se dieron a conocer. Luego una niña mexicana me compartió el molde de la muñeca de Frida Kahlo, la hice y ha tenido mucho éxito. Vendo mis productos en ferias artesanales y por el Facebook ‘Diseños artesanías Andrea Paz’. Entré a Banigualdad por una vecina, fui a una reunión y me gustó el sistema. Me he podido comprar insumos y estando en la Fundación pensé en abrirme a ferias y ofrecer mis productos ahí. Las clases de presupuesto y costos me han servido mucho, también la de formalizar la microempresa para así poder acceder a opciones como la Redcompra para ferias y eventos artesanales”, cuenta Carolita Vidaurre de Quilicura.",
 
@@ -327,6 +503,17 @@
 
   "categoria":["Manualidades"],
 
+  "productos":[
+    "Muñecas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg1.measombro.lavozdegalicia.es%2Fwp-content%2Fuploads%2F2018%2F01%2FMu%25C3%25B1ecas.jpg&imgrefurl=https%3A%2F%2Fmeasombro.lavozdegalicia.es%2F2018%2F01%2Festa-la-muneca-todos-los-ninos-deberian-este-2018%2F&docid=A-rwsJmhAQhq8M&tbnid=v_vxio09aCuqZM%3A&vet=10ahUKEwiKyPvch5ThAhUSLLkGHWLACWYQMwjAAigbMBs..i&w=1200&h=630&bih=669&biw=1299&q=mu%C3%B1ecas&ved=0ahUKEwiKyPvch5ThAhUSLLkGHWLACWYQMwjAAigbMBs&iact=mrc&uact=8"
+    },
+    "Lamparas",{
+      "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.sodimac.cl%2Fstatic%2FHomy%2Fhtml%2Fcategorias%2Fvitrinas-categorias%2Fvitcat-Homy-lamparas.jpg&imgrefurl=https%3A%2F%2Fwww.sodimac.cl%2Fsodimac-homy%2Fcategory%2Fcat2940069%2Flamparas&docid=76K4xMlI_ulhxM&tbnid=5dETT_C-dTpyGM%3A&vet=10ahUKEwiB0MXyh5ThAhVmD7kGHWk5CyQQMwjAAigTMBM..i&w=743&h=337&bih=669&biw=1299&q=lamparas&ved=0ahUKEwiB0MXyh5ThAhVmD7kGHWk5CyQQMwjAAigTMBM&iact=mrc&uact=8"
+    }],
+
+
   "ubicacion":"Quilicura"
 
-},
+}
+  ]}
+  
