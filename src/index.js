@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import Welcome from './Componentes/Login/welcome';
 import Login from './Componentes/Login/login';
 import LoginWithEmail from './Componentes/Login/login_w_email';

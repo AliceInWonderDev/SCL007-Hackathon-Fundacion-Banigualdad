@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import firebase from 'firebase'
+//import firebase from 'firebase'
 
 class Welcome extends Component {
 
@@ -22,7 +22,7 @@ class Welcome extends Component {
 
                 <div className="component">
                     <div className="row center"> 
-                        <img src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/logo_banigualdad.jpg" />
+                        <img alt="logoBanigualdad"src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/logo_banigualdad.jpg" />
                     </div>
                 </div>
 

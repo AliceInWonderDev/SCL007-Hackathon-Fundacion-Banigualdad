@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
-import { Link } from 'react-router-dom';
-import { auth, facebookProvider } from '../../FirebaseConfig/provider';
+//import { Link } from 'react-router-dom';
+//import { auth, facebookProvider } from '../../FirebaseConfig/provider';
 
 class LoginWithEmail extends Component {
 

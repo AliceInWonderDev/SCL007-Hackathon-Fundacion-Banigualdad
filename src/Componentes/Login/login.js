@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from 'firebase';
-import { auth, facebookProvider } from '../../FirebaseConfig/provider';
+import { /*auth,*/ facebookProvider } from '../../FirebaseConfig/provider';
 
 
 class Login extends Component {
@@ -37,7 +37,7 @@ class Login extends Component {
                     {error ? <p>{error.message}</p> : null }
                 </div>
                 <div className="row center">
-                    <img />
+                    <img alt="random"/>
                 </div>
                 <div className="row center">
                     <h3>¡Bienvenido, unete a nuestra comunidad de emprendedores!</h3>
