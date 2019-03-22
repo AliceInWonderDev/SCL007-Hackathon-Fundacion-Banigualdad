@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from 'firebase'
+import './welcome.css'
 
 class Welcome extends Component {
 
@@ -11,25 +12,36 @@ class Welcome extends Component {
         }
     }
 
+    componentDidMount() {
+        firebase.auth().onAuthStateChanged(function (user) {
+            if (user) {
+                console.log("logged in!")
+                this.props.history.push("/formulario");
+            } else {
+                // No user is signed in.
+            }
+        });
+    }
+
     handleClick = () => {
-        this.props.history.push("./login");
+        this.props.history.push("/login");
     }
 
     render() {
         return (
-            <div className="component welcomeScreen">
-                {this.state.isSignedIn ? <Link to="/navbar"></Link> : console.log('not logged in')}
-
+            <div className="component">
                 <div className="component">
-                    <div className="row center"> 
-                        <img src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/logo_banigualdad.jpg" />
+                    <div className="row center">
+                        <img className="mainLogo" src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/logo_banigualdad.png" />
                     </div>
                 </div>
 
                 <div className="row center">
-                    <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                        Soy de Banigualdad
-                    </button>
+                    <div className="col-6">
+                        <button type="button" className="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModalLong">
+                            Soy de Banigualdad
+                        </button>
+                    </div>
                 </div>
 
                 <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -41,7 +53,7 @@ class Welcome extends Component {
                                 </button>
                             </div>
                             <div className="modal-body">
-                            Esta sección solo se encuentra disponible para los emprendedores que son integrantes de la fundación BanIgualdad, toda aquella persona que se registre y no sea parte de la fundación sera eliminada su cuenta. 
+                                Esta sección solo se encuentra disponible para los emprendedores que son integrantes de la fundación BanIgualdad, toda aquella persona que se registre y no sea parte de la fundación sera eliminada su cuenta.
                         </div>
                             <div className="modal-footer">
                                 <button onClick={this.handleClick} className="btn btn-primary" data-dismiss="modal">Aceptar</button>
@@ -51,7 +63,9 @@ class Welcome extends Component {
                 </div>
 
                 <div className="row center">
-                    <h4><Link to="/catalogo" className="btn btn-outline-primary">Vengo a conocer</Link></h4>
+                    <div className="col-6">
+                        <h4><Link to="/catalogo" className="btn btn-outline-primary btn-block">Vengo a conocer</Link></h4>
+                    </div>
                 </div>
             </div>
         )
