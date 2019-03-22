@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import firebase from 'firebase';
+import { Link } from 'react-router-dom';
 import { auth, facebookProvider } from '../../FirebaseConfig/provider';
 
-
-class Login extends Component {
-
+class LoginWithEmail extends Component {
 
     state = {
+        email: '',
+        password: '',
         error: null
     };
 
@@ -17,12 +17,13 @@ class Login extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
+        const { email, password } = this.state;
         firebase
             .auth()
-            .signInWithRedirect(facebookProvider)
-            .then(() => {
-                this.props.history.push("./formulario");
-                console.log("logged in with Facebook!")
+            .signInWithEmailAndPassword(email, password)
+            .then((user) => {
+                this.props.history.push('/');
+                console.log("logged in!")
             })
             .catch((error) => {
                 this.setState({ error: error });
@@ -30,27 +31,24 @@ class Login extends Component {
     };
 
     render() {
-        const { error } = this.state;
+        const { email, password, error } = this.state;
         return (
             <div className="component">
                 <div className="row center">
-                    {error ? <p>{error.message}</p> : null }
+                {error ? <p>{error.message}</p> : null }
                 </div>
                 <div className="row center">
-                    <img />
+                    <input type="email" name="email" placeholder="Correo electrónico" value={email} onChange={this.handleInputChange}></input>
                 </div>
                 <div className="row center">
-                    <h3>¡Bienvenido, unete a nuestra comunidad de emprendedores!</h3>
-                </div>                
-                <div className="row center">
-                    <h4><Link to='./emailLogin' className="btn btn-danger">Accede con tu correo</Link></h4>
+                    <input type="password" name="password" placeholder="Contraseña" value={password} onChange={this.handleInputChange}></input>
                 </div>
                 <div className="row center">
-                    <button onClick={this.handleSubmit} className="btn btn-primary">Accede con Facebook</button>
+                    <button onClick={this.handleSubmit}>Ingresar</button>
                 </div>
             </div>
         )
     }
 }
 
-export default Login;
+export default LoginWithEmail;
