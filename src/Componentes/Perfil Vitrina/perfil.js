@@ -4,7 +4,7 @@ import vasos from './imagenes/JUE_vin_01-600x600.jpg'
 import olla from './imagenes/OLL_arr_03-600x600.jpg'
 import sarten from './imagenes/SAR_gre-600x600.jpg'
 import copas from './imagenes/SET_cop_01-600x600.jpg'
-import NavbarPag from '../Navbar/NavBar-vitr.js'
+import NavbarPag from '../Navbar/navbar-emp'
 
 
 class PerfilPage extends Component {
@@ -13,8 +13,8 @@ render() {
 
     return (
     <div>
-    <div class="container">
-        <NavbarPag/>        
+      <NavbarPag/>  
+    <div class="container">              
         <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark about">
             <div class="col-md-6 px-0 aboutme">
                 <h1 class="display-4 loto">Solange Céspedes</h1>

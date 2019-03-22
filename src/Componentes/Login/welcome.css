@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700i');
+
 .mainLogo{
-    margin: 10rem 0;
+    position: relative;
+    top: 4rem;
+}
+.slogan{
+    position: relative; 
+    z-index:3;
+    margin: 25px;
+    text-align: center;
+    color: grey;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
 .btn-block{
@@ -9,12 +21,32 @@
 .welcomeMsg{
     font-weight: 500;
     font-size: 24px;
+    font-family: 'Lato', sans-serif;
     line-height: normal;
     text-align: center;
-    color: #A3ADB4;
-    margin: 4rem 0;
+    color: #F6F6F6;
+    margin-top: 7rem;
+    text-shadow: #000 0px 0px 5px, #000 0px 0px 10px, #000 0px 0px 15px, #000 0px 0px 20px;
+}
+
+.logoweb{
+    margin-left: 65%;
+    margin-top: 5%;
 }
 
 .material-icons{
     vertical-align: middle;
+}
+
+.login{
+    width: 100%;
+    height: 100%;
+    background-image: url('./image.png');
+    background-position: top;
+    background-size: auto auto;
+}
+
+.containerLogin{
+    position: relative;
+    top: 17rem;
 }

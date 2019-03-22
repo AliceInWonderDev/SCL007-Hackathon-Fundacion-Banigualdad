@@ -1,16 +1,13 @@
 import React, {Component} from 'react';
 import './Noticias.css'
-import NavbarPag from '../Navbar/navbar-emp'
 
 
 class Noticias extends Component {
   render() {
     return (
-      <div>
-      <NavbarPag/>
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <br></br>
-          <h5 className="loto">Conoce otros Emprendendores</h5>
+          <h5>Conoce Otros emprendimientos</h5>
           <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -22,6 +19,7 @@ class Noticias extends Component {
                     <img className="d-block w-100 img-fluid" src="https://www.banigualdad.cl/wp-content/uploads/2018/11/solange-cspedes.jpg" alt="First slide"/>
                   <div className="carousel-caption">
                     <h5>SOLANGE CÉSPEDES: MANTENIENDO LA TRADICIÓN EN POMAIRE</h5>
+                    <p>Soy Solange Céspedes, tengo 46 años, soy nacida y criada en Pomaire. Hace más de 20 años que trabajo la alfarería, este es un trabajo muy lindo, un trabajo manual, una tradición de Pomaire que ya se está perdiendo y nosotras las mujeres la estamos siguiendo.</p>
                   </div>
                   </div>
                   
@@ -29,6 +27,7 @@ class Noticias extends Component {
                     <img className="d-block w-100 img-fluid" src="https://www.banigualdad.cl/wp-content/uploads/2018/06/alice-peailillo.jpg" alt="Second slide"/>
                   <div className="carousel-caption">
                     <h5>LAS TERAPIAS DE ALICE</h5>
+                    <span>Alice Peñailillo vive en San Antonio, luego de quedar sin trabajo pudo dedicarse 100% a lo que más le gusta: “Todo lo que son las terapias complementarias me apasiona.</span>
                   </div>
                   </div>
                   
@@ -36,6 +35,7 @@ class Noticias extends Component {
                     <img className="d-block w-100 img-fluid" src="https://www.banigualdad.cl/wp-content/uploads/2018/09/maria-rodriguez-curico-2.jpg" alt="Third slide"/>
                   <div className="carousel-caption">
                     <h5>BANIGUALDAD EN GLOBAL GIVING</h5>
+                    <span>Como Fundación les proporcionaremos orientación y tutoría semanales, educación empresarial básica, y también financiaremos sus proyectos.</span>
                   </div>
                   </div>
 
@@ -48,12 +48,12 @@ class Noticias extends Component {
                       <span className="carousel-control-next-icon" aria-hidden="true"></span>
                       <span className="sr-only">Next</span>
                   </a>
-          </div>
+              </div>
             <br></br>
 
             <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
             <br></br>
-            <h5 className="loto">Temas mas comentados</h5>
+            <h5>Temas mas comentados</h5>
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators2" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -65,6 +65,7 @@ class Noticias extends Component {
                   <img className="d-block w-100 img-fluid" src="https://www.banigualdad.cl/wp-content/uploads/2018/04/marisol-castaeda-y-anbal-vial.jpg" alt="First slide"/>
                 <div className="carousel-caption">
                   <h5>CUMPLE TU SUEÑO”: VAMOS POR MÁS</h5>
+                  <span>En marzo lanzamos la sexta versión de este concurso que nos orgullece como Fundación al poder premiar con un millón de pesos a los cinco emprendedores más destacados de Banigualdad.</span>
                 </div>
                 </div>
                 
@@ -72,7 +73,7 @@ class Noticias extends Component {
                   <img className="d-block w-100 img-fluid" src="https://www.banigualdad.cl/wp-content/uploads/2018/01/luz-gacita.jpg" alt="Second slide"/>
                 <div className="carousel-caption">
                   <h5>EMPRENDER PARA NO DESCUIDAR LOS HIJOS NI LA CASA Y TRABAJAR IGUAL.</h5>
-                 
+                  <span>Luz Gacitúa es de Maipú y emprende con la venta de cosméticos. Su principal innovación es vender marcas no testeadas en animales y así aportar con un granito de arena en esta causa.</span>
                 </div>
                 </div>
                 
@@ -98,7 +99,7 @@ class Noticias extends Component {
 
               <div id="carouselExampleIndicators3" className="carousel slide" data-ride="carousel">
                   <br></br>
-                  <h5 className="loto">Ultimas Noticias de BanIgualdad</h5>
+                  <h5>Ultimas Noticias</h5>
                   <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators3" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
@@ -110,7 +111,7 @@ class Noticias extends Component {
                         <img className="d-block w-100" src="https://www.banigualdad.cl/wp-content/uploads/2018/04/despega-ok.jpg" alt="First slide"/>
                       <div class="carousel-caption">
                         <h5>“DESPEGA 2018”: NUEVOS EVENTOS PARA NUESTROS EMPRENDEDORES</h5>
-                        
+                        <span>Este año, el equipo de Marketing y Comunicaciones decidió variar las tradicionales actividades para nuestros microempresarios y aprovechar la alianza con Inacap concretada el año pasado con el fin de potenciar el trabajo de nuestros emprendedores y entregarles nuevas herramientas.</span>
                       </div>
                       </div>
                       
@@ -118,7 +119,7 @@ class Noticias extends Component {
                         <img className="d-block w-100 img-fluid" src="https://www.banigualdad.cl/wp-content/uploads/2018/04/visita-radio-adn-1.jpg" alt="Second slide"/>
                       <div className="carousel-caption">
                         <h5>BANIGUALDAD EN RADIO ADN</h5>
-                     
+                      <span>El 21 de marzo pasado, nuestro Gerente General, Patricio Cordero, fue invitado al programa “Ciudadano ADN” con el fin de participar en un panel sobre la deuda en Chile y cómo entidades como la nuestra apoyan a microempresarios que muchas veces están en Dicom.  </span> 
                       </div>
                       </div>
                       
@@ -126,7 +127,7 @@ class Noticias extends Component {
                         <img className="d-block w-100" src="https://www.banigualdad.cl/wp-content/uploads/2018/06/supervisores-bi.jpg"  alt="Third slide"/>
                       <div className="carousel-caption">
                         <h5>SUPERVISORES DE BANIGUALDAD REALIZAN SU ENCUENTRO ANUAL EN SANTIAGO</h5>
-                       
+                        <span>Entre el 29 y el 31 de mayo, los 16 supervisores de nuestra Fundación participaron del Encuentro de Supervisores Banigualdad, evento que se realiza cada año.</span>
                       </div>
                       </div>
 
@@ -144,8 +145,6 @@ class Noticias extends Component {
                   </div>
               </div>
           </div>
-
-        </div>
       );
     }
 }

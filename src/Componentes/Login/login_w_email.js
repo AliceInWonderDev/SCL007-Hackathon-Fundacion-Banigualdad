@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import firebase from 'firebase';
+import './login_w_email.css'
 //import { Link } from 'react-router-dom';
 //import { auth, facebookProvider } from '../../FirebaseConfig/provider';
 
@@ -22,7 +23,7 @@ class LoginWithEmail extends Component {
             .auth()
             .signInWithEmailAndPassword(email, password)
             .then((user) => {
-                this.props.history.push('/');
+                this.props.history.push('/Noticias');
                 console.log("logged in!")
             })
             .catch((error) => {
@@ -33,10 +34,11 @@ class LoginWithEmail extends Component {
     render() {
         const { email, password, error } = this.state;
         return (
-            <div className="component mainLogo">
+            <div className="component login">
                 <div className="row center">
                 {error ? <p>{error.message}</p> : null }
                 </div>
+                <div className= "formGroup">
                 <div className="row center">
                     <input type="email" name="email" placeholder="Correo electrónico" value={email} onChange={this.handleInputChange}></input>
                 </div>
@@ -45,6 +47,10 @@ class LoginWithEmail extends Component {
                 </div>
                 <div className="row center">
                     <button onClick={this.handleSubmit} className="btn btn-primary">Ingresar</button>
+                </div>
+                </div>
+                <div className="row center error">
+                {error ? <p>{error.message}</p> : null }
                 </div>
             </div>
         )

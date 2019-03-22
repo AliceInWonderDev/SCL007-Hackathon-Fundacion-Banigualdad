@@ -12,19 +12,7 @@
     font-size: 3.5rem;
     }
 }
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-}
-
-/* CIRCLES
-  -------------------------------------------------- */
-  /* Center align the text within the three columns below the carousel */
 .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -58,5 +46,6 @@ body {
 
 .imgEMpr{
     border-radius: 50%;
-    background-size: cover;
+    image-rendering: auto;
 }
+

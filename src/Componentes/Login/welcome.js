@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import firebase from 'firebase'
 import './welcome.css'
+import logo from './card 2.png'
 
 class Welcome extends Component {
 
@@ -24,7 +25,7 @@ class Welcome extends Component {
     }
 
     handleClick = () => {
-        this.props.history.push("/login");
+        this.props.history.push("/Login");
     }
 
     render() {
@@ -32,7 +33,8 @@ class Welcome extends Component {
             <div className="component">
                 <div className="component">
                     <div className="row center">
-                        <img alt="logoBanIgualdad"className="mainLogo" src="https://raw.githubusercontent.com/VeronicaManchola/SCL007-Hackathon-Fundacion-Banigualdad/master/src/Componentes/Imagenes/logo_banigualdad.png" />
+                        <img alt="logoBanIgualdad" className="mainLogo" src={logo} />
+                        <span className="container slogan center"><em>Apoyamos a más de 47.000 emprendedores a cumplir el sueño de surgir.</em></span>
                     </div>
                 </div>
 

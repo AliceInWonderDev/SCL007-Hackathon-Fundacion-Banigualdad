@@ -1,26 +1,20 @@
 import React, { Component } from 'react'
 import './Formulario.css'
+import { Link } from 'react-router-dom';
+import fotoDefault from './default-user.png'
+import NavbarPag from '../Navbar/navbar-emp'
+
 
 class Formulario extends Component {
-constructor(){
-    super()
-    this.state = {
-        secondPage: "",
-    }
-    this.nextRegisterPage = this.nextRegisterPage.bind(this);
-}
-  nextRegisterPage = () => {
-    this.setState({
-        ...this.state,
-    })
-  }
-    render(){
+
+   render(){
         return(
             <div className="container">
+                <NavbarPag/>
                 <h4 className="mt-4 mb-4">Crea tu perfil</h4>
                 <form>
                     <div className="profilePicture">
-                        <img src="http://www.stickpng.com/assets/images/585e4bf3cb11b227491c339a.png" alt="profilePicture" />
+                        <img className="picturePerfil" src={fotoDefault} alt="profilePicture" />
 
                     </div>
                     <div className="form-group row">
@@ -53,7 +47,7 @@ constructor(){
                             </select>
                         </div>
                     </div>
-                    <button onClick={this.nextRegisterPage} className="continue btn btn-block">Continuar</button>
+                    <Link to="/Formulario2" className="continue btn btn-block">Continuar</Link>
                 </form>
            </div>
         )
