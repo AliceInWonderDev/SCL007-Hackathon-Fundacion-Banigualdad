@@ -72,7 +72,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Costura de uniformes"],
+  "categoria":["Costura"],
 
   "productos":[
     "Poleras",{
@@ -101,7 +101,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Brochetas"],
+  "categoria":["Alimentos"],
 
   "productos":[
     "Arrollado Huaso",{
@@ -133,7 +133,7 @@
 
   "rubro":["Comercio"],
 
-  "categoria":["Venta de Maquillaje"],
+  "categoria":["Venta de productos"],
 
   "productos":[
     "Labiales",{
@@ -162,7 +162,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Manualidad navideña"],
+  "categoria":["Manualidades"],
 
   "productos":[
     "Manteles",{
@@ -223,7 +223,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
   
   "productos":[
     "Cazuela de Vacuno",{
@@ -255,7 +255,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
 
   "productos":[
     "Pan amasado en horno de barro",{
@@ -305,7 +305,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Talabartería"],
+  "categoria":["Manualidades"],
 
   "productos":[
     "Monturas",{
@@ -334,7 +334,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Reposteria"],
+  "categoria":["Alimentos"],
 
   "productos":[
     "Tortas",{
@@ -363,7 +363,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Artesanía"],
+  "categoria":["Manualidades"],
 
   "productos":[
     "Elaboración y restauración de figugras religiosas",{
@@ -386,7 +386,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Alfarería"],
+  "categoria":["Manualidades"],
 
   "productos":[
     "Vasijas",{
@@ -417,7 +417,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
 
   "productos":[
     "Empanadas",{
@@ -446,7 +446,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Cocina"],
+  "categoria":["Alimentos"],
 
   "productos":[
     "tortas",{
@@ -475,7 +475,7 @@
 
   "rubro":["Produccion"],
 
-  "categoria":["Tarjeteria Artesanal"],
+  "categoria":["Manualidades"],
 
   "productos":[
     "Tarjetas de matrimonio",{
