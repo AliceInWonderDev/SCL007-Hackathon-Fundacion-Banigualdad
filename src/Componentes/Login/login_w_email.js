@@ -40,11 +40,15 @@ class LoginWithEmail extends Component {
                 </div>
                 <div className= "formGroup">
                 <div className="row center">
-                    <input type="email" name="email" placeholder="Correo electrónico" value={email} onChange={this.handleInputChange}></input>
+                    <label className="textImput" for="inputEmail1">Correo electrónico</label>
+                    <input className="divImput" id="inputEmail1" type="email" name="email" value={email} onChange={this.handleInputChange}></input>
                 </div>
+                <br/>
                 <div className="row center">
-                    <input type="password" name="password" placeholder="Contraseña" value={password} onChange={this.handleInputChange}></input>
+                    <label className="textImput" for="inputPasword">Contraseña</label>
+                    <input className="divImput" id="inputPasword"  type="password" name="password" value={password} onChange={this.handleInputChange}></input>
                 </div>
+                <br/>
                 <div className="row center">
                     <button onClick={this.handleSubmit} className="btn btn-primary">Ingresar</button>
                 </div>
